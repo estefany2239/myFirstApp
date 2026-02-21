@@ -67,7 +67,7 @@ export const Content = () => {
             {/* Tarjeta 4 */}
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-0">
-                <img src="img/apple.png" className="card-img-top" alt="Apple Watch" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/apple.png" className="card-img-top" alt="Apple Watch" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Apple Watch</h5>
                   <span className="text-success fs-5 fw-bold">$2.000.000</span>
@@ -84,7 +84,7 @@ export const Content = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-0">
-                <img src="img/tecla.avif" className="card-img-top" alt="Teclado" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/tecla.avif" className="card-img-top" alt="Teclado" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Teclado </h5>
                   <span className="text-success fs-5 fw-bold">$3.000.000</span>
@@ -100,7 +100,7 @@ export const Content = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-0">
-                <img src="img/producto.jpg" className="card-img-top" alt="Audifonos" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="/img/producto.jpg" className="card-img-top" alt="Audifonos" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Audifonos</h5>
                   <span className="text-success fs-5 fw-bold">$500.000</span>
