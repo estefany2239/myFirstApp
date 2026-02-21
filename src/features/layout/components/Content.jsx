@@ -4,16 +4,13 @@ export const Content = () => {
   return (
     <main className="container-fluid px-4 my-5">
       <div className="row">
-        
-        {/* SECCIÓN IZQUIERDA: Tus tarjetas manuales */}
         <div className="col-lg-8">
           <h2 className="fw-bold mb-4">Productos</h2>
           <div className="row">
             
-            {/* Tarjeta 1 */}
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-45">
-                <img src="/img/iphone.webp" className="card-img-top" alt="Iphone 17 Pro Max" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="img/iphone.png" className="card-img-top" alt="Iphone 17 Pro Max" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Iphone 17 pro max</h5>
                   <span className="text-success fs-5 fw-bold">$8.000.000</span>
@@ -28,10 +25,10 @@ export const Content = () => {
               </div>
             </div>
 
-            {/* Tarjeta 2 */}
+
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-45">
-                <img src="/img/compu.jpg" className="card-img-top" alt="Computador" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="img/compu.jpg" className="card-img-top" alt="Computador" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Asus Zenbook </h5>
                   <span className="text-success fs-5 fw-bold">$9.000.000</span>
@@ -46,10 +43,9 @@ export const Content = () => {
               </div>
             </div>
 
-            {/* Tarjeta 3 */}
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-45">
-                <img src="/img/cama.avif" className="card-img-top" alt="Camara" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="img/cama.avif" className="card-img-top" alt="Camara" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Camara</h5>
                   <span className="text-success fs-5 fw-bold">$250.000</span>
@@ -64,10 +60,9 @@ export const Content = () => {
               </div>
             </div>
 
-            {/* Tarjeta 4 */}
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-0">
-                <img src="/img/apple.png" className="card-img-top" alt="Apple Watch" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="img/apple.png" className="card-img-top" alt="Apple Watch" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Apple Watch</h5>
                   <span className="text-success fs-5 fw-bold">$2.000.000</span>
@@ -84,7 +79,7 @@ export const Content = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-0">
-                <img src="/img/tecla.avif" className="card-img-top" alt="Teclado" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="img/tecla.avif" className="card-img-top" alt="Teclado" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Teclado </h5>
                   <span className="text-success fs-5 fw-bold">$3.000.000</span>
@@ -100,7 +95,7 @@ export const Content = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm border-0">
-                <img src="/img/producto.jpg" className="card-img-top" alt="Audifonos" style={{ height: '200px', objectFit: 'cover' }} />
+                <img src="img/producto.jpg" className="card-img-top" alt="Audifonos" style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body text-center">
                   <h5 className="fw-bold">Audifonos</h5>
                   <span className="text-success fs-5 fw-bold">$500.000</span>
@@ -119,7 +114,6 @@ export const Content = () => {
         </div>
         
 
-        {/* SECCIÓN DERECHA: Formulario (Se queda igual para que el diseño no cambie) */}
         <div className="col-lg-4">
           <div className="card shadow border-0 sticky-top" style={{ top: '90px' }}>
             <div className="card-header bg-primary text-white py-3">
